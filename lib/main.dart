@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 import 'package:flutter_app/HomePage.dart';
+import 'package:flutter_app/DetailPage.dart';
 
 void main(){
   runApp(new MaterialApp(
     title: "Planets",
     home: new HomePage(),
+//    routes: <String,WidgetBuilder>{
+//      "/detail": (_) => new DetailPage()
+//    },
   ));
 }
 
